@@ -1,0 +1,294 @@
+body {
+  width: 1400px;
+  height: 890px;
+  top: 17385px;
+  left: -111px;
+  background-color: rgba(47, 24, 147, 1);
+}
+
+header {
+  position: relative;
+  width: 972px;
+  height: 40px;
+  top: 65px;
+  left: 213px;
+}
+
+.logo {
+  width: 106px;
+  height: 32px;
+  position: absolute;
+  top: -6px;
+  left: 2px;
+}
+
+.logo span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: -0.29px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  display: inline-block;
+}
+
+.menu {
+  width: 503px;
+  height: 40px;
+  position: relative;
+  top: -6px;
+  left: 420px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.menu-item {
+  opacity: 30%;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.menu-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 100px;
+  position: absolute;
+  top: -6px;
+  left: 450px;
+  background-color: rgba(233, 58, 125, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0;
+}
+/* ------------------------------------------------------------------- */
+.info-section {
+  width: 350px;
+  height: 496px;
+  position: relative;
+  top: 50px;
+  left: 2px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.info-section h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.info-section p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.learn {
+  width: 157px;
+  height: 50px;
+  border-radius: 100px;
+  background: rgba(233, 58, 125, 1);
+
+  margin-top: 20px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0;
+}
+
+/* ------------------------------------------------------------------- */
+.sign-up-form {
+  width: 470px;
+  height: 600px;
+  position: absolute;
+  top: 80px;
+  left: 500px;
+  border: 2px solid rgba(235, 234, 237, 1);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sign-up-heading {
+  top: 235px;
+  left: 829px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 30px;
+  color: rgba(30, 14, 98, 1);
+}
+
+.text-input {
+  width: 330px;
+  height: 30px;
+  border-radius: 100px;
+  border: 2px solid rgba(235, 234, 237, 1);
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.checkbox-container {
+  position: absolute;
+  width: 300px;
+  height: 26.4px;
+  margin-top: 25px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  padding: auto;
+}
+
+.check-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #37dac5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-mark {
+  font-size: 20px;
+  color: rgba(30, 14, 98, 1);
+}
+.checkbox-label {
+  width: 300px;
+  height: 26px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(21, 20, 57, 0.4);
+  padding: 10px;
+  margin-left: 3%;
+}
+
+.btn {
+  width: 350px;
+  height: 50px;
+  border-radius: 100px;
+  background: rgba(72, 43, 231, 1);
+  margin-top: 80px;
+  margin-left: 50px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  border: none;
+}
+.divider-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.divider1,
+.divider2 {
+  width: 141.57px;
+  height: 2px;
+  border: 2px solid rgba(235, 234, 237, 1);
+  left: 784.5px;
+}
+
+.or-text {
+  width: 16px;
+  height: 26px;
+  opacity: 90%;
+  content: "or";
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+  align-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn-login {
+  width: 350px;
+  height: 50px;
+  border-radius: 100px;
+  background: rgba(29, 161, 242, 1);
+  margin-top: 20px;
+  margin-left: 50px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  border: none;
+}
+
+.account-text {
+  height: 28px;
+  top: 716px;
+  left: 815px;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: rgba(21, 20, 57, 0.4);
+  display: flex;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+.sign-in-link {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(37, 218, 197, 1);
+  margin-left: 10px;
+}
